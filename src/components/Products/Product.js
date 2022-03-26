@@ -8,6 +8,7 @@ const [products , setProducts]= useState([]);
 const[cart , setCart] =useState([])
 
 
+
 const handelAddToCart =(product)=>{
   const newCart =[...cart , product]
   setCart(newCart)
@@ -16,6 +17,7 @@ const handelAddToCart =(product)=>{
 useEffect( ()=>{
 fetch('data.json')
 .then(res => res.json())
+
 .then(data => setProducts(data))
 
 
@@ -26,6 +28,7 @@ fetch('data.json')
     return (
     <div className="products">
 <div className="product-container">
+   
  {
       products.map(product => <Shoe 
                 key ={product.id}
@@ -51,7 +54,7 @@ fetch('data.json')
            }
           
                <button  className='btn'>CHOOCE 1 fOR ME</button>
-               <button className='btn'>CHOOCE again</button>
+               <button  className='btn'>CHOOCE again</button>
                </div>
             </div>
 
