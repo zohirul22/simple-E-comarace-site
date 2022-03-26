@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      "id": 1,
       "price": 1200,
       "name": "Bata",
       "img": "./img/img1.png"

@@ -10,9 +10,14 @@
 }
 
 .cart-btn{
-background-color: blueviolet;
+background-color: rgb(209, 179, 236);
 padding: 3px;
+border: none;
 border-radius: 5px;
+width: 100%;
+}
+.cart-btn:hover{
+    background-color: blueviolet;
 }
 
 .shoes > img{

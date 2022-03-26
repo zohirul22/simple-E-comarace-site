@@ -1,6 +1,7 @@
 .products{
 display: grid;
 grid-template-columns: 4fr  1fr;
+/* position: relative; */
 }
 
 .product-container{
@@ -12,4 +13,35 @@ grid-gap: 20px;
 .product-container img{
     width: 200px;
     height: 200px;
+}
+
+.cart-container{
+    text-align: center;
+    background-color: bisque;
+  margin: 10px;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  
+}
+.btn{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color:orange;
+    color: blue;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: orangered;
+}
+
+.item{
+    border: 2px solid rgb(206, 47, 255);
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: azure;
+    text-transform: uppercase;
+    
 }
