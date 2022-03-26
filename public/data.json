@@ -1,0 +1,41 @@
+[
+    {
+      "id": "1",
+      "price": 1200,
+      "name": "Bata",
+      "img": "./img/img1.png"
+    },
+    {
+      "id": 2,
+      "price": 1200,
+      "name": "Bata",
+      "img": "./img/img2.png"
+    },
+    {
+      "id": 3,
+      "price": 1800,
+      "name": "Apex",
+      "img": "./img/img3.png"
+    },
+    {
+      "id": 4,
+      "price": 1150,
+      "name": "Leatherx",
+      "img": "./img/img4.png"
+    },
+    {
+      "id": 5,
+      "price": 1100,
+      "name": "Foortuna",
+      "img": "./img/img5.png"
+    },
+    {
+      "id": 6,
+      "price": 1234,
+      "name": "Bay Emporium",
+      "img": "./img/img6.png"
+    }
+   
+  
+   
+  ]

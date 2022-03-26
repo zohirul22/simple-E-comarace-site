@@ -1,0 +1,21 @@
+.shoes{
+   
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(202, 235, 224);
+   
+    padding: 10px;
+   
+  
+}
+
+.cart-btn{
+background-color: blueviolet;
+padding: 3px;
+border-radius: 5px;
+}
+
+.shoes > img{
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
