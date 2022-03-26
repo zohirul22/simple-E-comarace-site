@@ -1,14 +1,14 @@
 [
     {
       "id": 1,
-      "price": 1200,
+      "price": 200,
       "name": "Bata",
       "img": "./img/img1.png"
     },
     {
       "id": 2,
       "price": 1200,
-      "name": "bbata",
+      "name": "duronto",
       "img": "./img/img2.png"
     },
     {
@@ -34,8 +34,24 @@
       "price": 1234,
       "name": "Bay Emporium",
       "img": "./img/img6.png"
+    },
+    {
+      "id": 7,
+      "price": 1040,
+      "name": "Nike",
+      "img": "./img/img7.png"
+    },
+    {
+      "id": 8,
+      "price": 1034,
+      "name": "Lotto",
+      "img": "./img/img8.png"
+    },
+    {
+      "id": 9,
+      "price": 1134,
+      "name": "Sports Shoe",
+      "img": "./img/img9.png"
     }
-   
-  
    
   ]

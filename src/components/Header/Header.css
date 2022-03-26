@@ -1,8 +1,12 @@
 .navber{
     background-color: rgb(33, 13, 53);
     color: azure;
-    height: 70px;
-    padding: 10px;
+    height: 80px;
+    padding: 5px;
+    line-height: 10px;
     text-align: center;
     
+}
+.navber h3{
+    color: chartreuse;
 }

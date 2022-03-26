@@ -12,9 +12,9 @@ function App() {
     <div >
       <Header></Header>
    <Product></Product>
- <Shoe></Shoe>
- <Answer></Answer>
- <Answer2></Answer2>
+
+  <Answer></Answer>
+ <Answer2></Answer2> 
  
     </div>
   );
