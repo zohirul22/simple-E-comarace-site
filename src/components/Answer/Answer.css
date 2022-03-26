@@ -1,0 +1,14 @@
+.answer{
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+}
+.ans{
+    margin-left: 30px;
+    font-size: 20px;
+    color: blue;
+}
+span{
+    margin-left: 5px;
+    color: brown;
+}

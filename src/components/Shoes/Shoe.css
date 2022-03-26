@@ -9,14 +9,24 @@
   
 }
 
-.cart-btn{
+.btn-info{
 background-color: rgb(209, 179, 236);
 padding: 3px;
 border: none;
 border-radius: 5px;
 width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 }
-.cart-btn:hover{
+
+.btn-p{
+    padding-right: 20px;
+    font-weight: bolder;
+}
+.btn-info:hover{
     background-color: blueviolet;
 }
 
