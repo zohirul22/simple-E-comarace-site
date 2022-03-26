@@ -5,11 +5,17 @@ import './Product.css'
 const Product = () => {
 const [products , setProducts]= useState([]);
 const[cart , setCart] =useState([])
+ const [shoe , setShoe] = useState([])
+
 
 
 const handelAddToCart =(product)=>{
   const newCart =[...cart , product]
   setCart(newCart)
+}
+
+const remove =() =>{
+setShoe();
 }
 
 useEffect( ()=>{
@@ -43,7 +49,7 @@ fetch('data.json')
                    {item.name}
                    </h1>)
            }
-               <button  className='btn'>CHOOCE 1 fOR ME</button>
+               <button onClick={remove}  className='btn'>CHOOCE 1 fOR ME</button>
                <button  className='btn'>CHOOCE again</button>
                </div>
     </div>
